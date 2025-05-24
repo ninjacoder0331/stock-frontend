@@ -43,12 +43,12 @@ export const NAV_DATA = [
       //   icon: Icons.Table,
       //   items: [],
       // },
-      {
-        title: "Options Trading",
-        url: "/options-trading",
-        icon: Icons.FourCircle,
-        items: [],
-      },
+      // {
+      //   title: "Options Trading",
+      //   url: "/options-trading",
+      //   icon: Icons.FourCircle,
+      //   items: [],
+      // },
       {
         title: "Settings",
         url: "/settings",

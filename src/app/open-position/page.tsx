@@ -54,7 +54,7 @@ const OpenPositionPage = () => {
 
           <br className=''/>
 
-          <OpenOptionsPositions openPositions={openPositions} />
+          {/* <OpenOptionsPositions openPositions={openPositions} /> */}
         </div>
       
       </div>

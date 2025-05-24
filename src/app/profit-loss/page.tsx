@@ -29,7 +29,7 @@ const ProfitLossPage = () => {
         <div>
           <TitleLine title="Profit & Loss" description="View your profit and loss" />
 
-          <ProfitLost data={plData} />
+          {/* <ProfitLost data={plData} /> */}
         </div>
     )
 }

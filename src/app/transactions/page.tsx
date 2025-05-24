@@ -37,7 +37,7 @@ const TransactionsPage = () => {
           </div>
         </div>
       </div>
-      {selected === "stock" ? <StockClosedPosition /> : <OptionsClosedPosition />}
+      {/* {selected === "stock" ? <StockClosedPosition /> : <OptionsClosedPosition />} */}
     </div>
   )
 }

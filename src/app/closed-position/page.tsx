@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import OptionsClosedPosition from "@/components/OptionsClosedPosition"
 import StockClosedPosition from "@/components/stockClosedPosition"
+import TitleLine from "@/components/TitleLine"
 
 const ClosedPositionPage = () => {
   const [selectedHistory, setSelectedHistory] = useState('options')
@@ -34,12 +35,10 @@ const ClosedPositionPage = () => {
 
   return (
     <div className="">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">Closed Positions</h1>
-        <p className="text-sm text-gray-600 dark:text-gray-400">View your completed trades and their performance</p>
-      </div>
 
-      <div className="mb-6" ref={dropdownRef}>
+      <TitleLine title="Closed Positions" description="View your completed trades and their performance" />
+
+      {/* <div className="mb-6" ref={dropdownRef}>
         <div className="relative">
           <button
             onClick={toggleDropdown}
@@ -101,15 +100,15 @@ const ClosedPositionPage = () => {
             </div>
           )}
         </div>
-      </div>
+      </div> */}
 
-      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 transition-all duration-300">
+      {/* <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 transition-all duration-300">
         {selectedHistory === 'options' ? (
           <OptionsClosedPosition />
         ) : (
           <StockClosedPosition />
         )}
-      </div>
+      </div> */}
     </div>
   )
 }

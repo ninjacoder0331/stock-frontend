@@ -3,6 +3,7 @@
 import { useState , useEffect } from "react"
 import apiClient from "@/lib/axios"
 import { toast } from "react-toastify"
+import TitleLine from "@/components/TitleLine"
 
 const TradingStartStop = () => {
 
@@ -53,12 +54,10 @@ const TradingStartStop = () => {
 
   return (
     <div className="flex flex-col gap-6 rounded-xl border border-gray-200 bg-white p-6 shadow-lg dark:border-gray-700 dark:bg-gray-800">
-      <div className="flex flex-col gap-4">
-        <h3 className="text-xl font-semibold text-gray-800 dark:text-white">Trading Controls</h3>
-        <p className="text-sm text-gray-600 dark:text-gray-400">Manage your trading system status</p>
-      </div>
+      
+      <TitleLine title="Trading Controls" description="Manage your trading system status" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
         {/* Stock Trading Card */}
         <div className="flex flex-col gap-4 p-4 rounded-lg bg-gray-50 dark:bg-gray-700/50">
           <div className="flex items-center justify-between">
@@ -87,7 +86,7 @@ const TradingStartStop = () => {
         </div>
 
         {/* Options Trading Card */}
-        <div className="flex flex-col gap-4 p-4 rounded-lg bg-gray-50 dark:bg-gray-700/50">
+        {/* <div className="flex flex-col gap-4 p-4 rounded-lg bg-gray-50 dark:bg-gray-700/50">
           <div className="flex items-center justify-between">
             <div className="flex flex-col">
               <h4 className="text-lg font-medium text-gray-800 dark:text-white">Options Trading</h4>
@@ -111,7 +110,7 @@ const TradingStartStop = () => {
           >
             {optionsTradingStart ? 'Stop Trading' : 'Start Trading'}
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   )
