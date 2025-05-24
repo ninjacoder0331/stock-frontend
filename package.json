@@ -1,0 +1,40 @@
+{
+  "name": "alpaca-option-trading-dashboard",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroui/react": "^2.7.5",
+    "@internationalized/date": "^3.7.0",
+    "@types/react-datepicker": "^6.2.0",
+    "axios": "^1.8.1",
+    "bcrypt": "^5.1.1",
+    "chart.js": "^4.4.8",
+    "class-variance-authority": "^0.7.1",
+    "dayjs": "^1.11.13",
+    "js-cookie": "^3.0.5",
+    "next": "^14.2.29",
+    "next-auth": "^4.24.11",
+    "next-themes": "^0.2.1",
+    "nextjs-toploader": "^3.7.15",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-datepicker": "^8.2.1",
+    "react-dom": "18.2.0",
+    "react-modal-video": "^2.0.1",
+    "react-toastify": "^11.0.5",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "@types/react": "19.0.8",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
