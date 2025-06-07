@@ -82,13 +82,13 @@ const MyPortfolio = () => {
     <div>
       <TitleLine title="My Portfolio" description="My portfolio history" />
 
-      {/* <div className='mb-4'>
+      <div className='mb-4'>
         <PortfolioChart portfolioHistory={portfolioHistory}/>
-      </div> */}
+      </div>
 
 
       {/* Table Controls */}
-      {/* <div className="mb-4.5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mb-4.5 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="flex px-3 items-center gap-3">
           <label className="text-sm font-medium text-gray-600 dark:text-gray-400 text-center">
             Show rows:
@@ -129,9 +129,9 @@ const MyPortfolio = () => {
             Next
           </button>
         </div>
-      </div> */}
+      </div>
 
-      {/* <div className="overflow-x-auto p-6 rounded-xl bg-white shadow-1 dark:bg-gray-800 dark:shadow-card mt-3">
+      <div className="overflow-x-auto p-6 rounded-xl bg-white shadow-1 dark:bg-gray-800 dark:shadow-card mt-3">
         <table className="w-full table-auto border-collapse">
           <thead>
             <tr className="bg-primary/10 dark:bg-primary/5">
@@ -207,7 +207,7 @@ const MyPortfolio = () => {
             </tr>
           </tfoot>
         </table>
-      </div> */} 
+      </div>
     </div>
   )
 };

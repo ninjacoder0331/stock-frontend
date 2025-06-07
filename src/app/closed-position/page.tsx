@@ -6,7 +6,7 @@ import StockClosedPosition from "@/components/stockClosedPosition"
 import TitleLine from "@/components/TitleLine"
 
 const ClosedPositionPage = () => {
-  const [selectedHistory, setSelectedHistory] = useState('options')
+  const [selectedHistory, setSelectedHistory] = useState('stock')
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const dropdownRef = useRef(null)
 
@@ -102,13 +102,13 @@ const ClosedPositionPage = () => {
         </div>
       </div> */}
 
-      {/* <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 transition-all duration-300">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-4 transition-all duration-300">
         {selectedHistory === 'options' ? (
           <OptionsClosedPosition />
         ) : (
           <StockClosedPosition />
         )}
-      </div> */}
+      </div>
     </div>
   )
 }
